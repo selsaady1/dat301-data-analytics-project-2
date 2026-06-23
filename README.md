@@ -4,10 +4,14 @@
 
 ![Python](https://img.shields.io/badge/Python-0a7?style=flat-square) ![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-0a7?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-0a7?style=flat-square) ![numpy](https://img.shields.io/badge/numpy-0a7?style=flat-square) ![seaborn](https://img.shields.io/badge/seaborn-0a7?style=flat-square) ![matplotlib](https://img.shields.io/badge/matplotlib-0a7?style=flat-square) ![statsmodels](https://img.shields.io/badge/statsmodels-0a7?style=flat-square) ![scipy](https://img.shields.io/badge/scipy-0a7?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0a7?style=flat-square) 
 
+![Data Analytics — Project 2](images/diagram.png)
+
 ### 🌐 Live project page → **https://selsaady1.github.io/dat301-data-analytics-project-2/**
 
 ## Overview
 A DAT301 data analytics project analyzing the Instacart Market Basket dataset in a single Jupyter notebook. It explores how order quantity, purchase frequency, and days between orders relate to product reorders using data merging, visualization, OLS regression, and a binomial probability model. The work covers data cleaning, exploratory plots, regression diagnostics, and a probability mass function for cart checkout behavior.
+
+**Highlight:** R-squared = 0.742 for reorders-vs-products regression
 
 **Highlight:** R-squared = 0.742 for reorders-vs-products regression
 
@@ -34,8 +38,12 @@ Working in Python (pandas, numpy, seaborn/matplotlib), the notebook reads and me
 ## Repository Structure
 ```
 .gitignore
+.nojekyll
 LICENSE
 README.md
+images/diagram.png
+images/diagram.svg
+index.html
 src/DAT301Project2.ipynb
 ```
 
